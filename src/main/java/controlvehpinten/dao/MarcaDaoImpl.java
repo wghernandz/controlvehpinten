@@ -38,14 +38,11 @@ public class MarcaDaoImpl implements MarcaDao {
 		catch(Exception e) {
 			return null;
 		}
-		
 	}
 	@Transactional(readOnly=false)
 	public List<Marca> getMarcas(){
 		List<Marca> marcas;
-		
 		marcas=entityManager.createQuery("select m from Marca m").getResultList();
-		
 		return marcas;
 	}
 }

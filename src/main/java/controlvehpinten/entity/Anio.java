@@ -16,6 +16,7 @@ public class Anio {
 	public int getIdanio() {
 		return idanio;
 	}
+	
 	public void setIdanio(int idanio) {
 		this.idanio = idanio;
 	}
@@ -24,6 +25,10 @@ public class Anio {
 	}
 	public void setAnio(String anio) {
 		this.anio = anio;
+	}
+	
+	public String getIdAsString() {
+		return new Integer(idanio).toString();
 	}
 	
 }

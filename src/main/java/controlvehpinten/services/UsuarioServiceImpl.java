@@ -56,5 +56,4 @@ public class UsuarioServiceImpl implements UsuarioService{
 	public List<Usuario> getUsuarios() {
 		return usuarioDAO.getUsuarios();
 	}
-	
 }

@@ -2,6 +2,7 @@ package controlvehpinten.entity;
 
 import java.util.Date;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -19,7 +20,7 @@ public class Ingresovehiculo {
 	//@SequenceGenerator(name="SEQ_ID_FACTURA",sequenceName="seq_idfactura", allocationSize=1)
 	private int idingresovehiculo;
 	@ManyToOne
-	@JoinColumn(name="idanio")
+	@JoinColumn(name="idanio",referencedColumnName="idanio")
 	private Anio anio;
 	@ManyToOne
 	@JoinColumn(name="idasesor")

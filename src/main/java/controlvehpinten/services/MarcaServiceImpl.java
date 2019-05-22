@@ -2,8 +2,6 @@ package controlvehpinten.services;
 
 import controlvehpinten.dao.MarcaDao;
 import controlvehpinten.entity.Marca;
-import controlvehpinten.entity.Persona;
-import controlvehpinten.entity.Usuario;
 //import java.util.Date;
 import java.util.List;
 
@@ -18,6 +16,19 @@ public class MarcaServiceImpl implements MarcaService {
 	@Autowired(required=true)
 	@Qualifier("marcaDao")
 	private MarcaDao marcaDao;
+	
+	public Marca addMarca(Marca marca) {
+		return marcaDao.addMarca(marca);
+	}
+	public Marca updateMarca(Marca marca) {
+		return marcaDao.updateMarca(marca);
+	}
+	public void deleteMarca(int marcaId) {
+		marcaDao.deleteMarca(marcaId);
+	}
+	public Marca getMarca(int marcaId) {
+		return marcaDao.getMarca(marcaId);
+	}
 	
 	public List<Marca> getMarcas(){
 		return marcaDao.getMarcas();

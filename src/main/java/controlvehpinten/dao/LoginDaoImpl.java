@@ -21,8 +21,7 @@ public class LoginDaoImpl implements LoginDao {
 			return (Usuario) entityManager.createQuery(sql).getSingleResult();
 		}catch(Exception e){
 		}
-		return null;
-		
+		return null;	
 	}
 	@Transactional
 	public List<String> getUserRoles(String username){

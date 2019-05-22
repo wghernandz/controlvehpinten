@@ -9,11 +9,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link href="<c:url value="https://unpkg.com/v-calendar/lib/v-calendar.min.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/menuprincipal.css" />" rel="stylesheet">
 <script src="<c:url value="/resources/js/menuprincipal.js" />"></script>
 </head>
 <body>
-<c:url value="/ingresovehiculo" var="urlIngresoVehiculo" />
+<c:url value="/mttovehiculos/ingresovehiculo" var="urlIngresoVehiculo" />
 <div class="nav-side-menu">
     <div class="brand">SERVIPINTEN</div>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>

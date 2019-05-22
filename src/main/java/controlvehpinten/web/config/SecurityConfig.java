@@ -33,7 +33,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure (HttpSecurity http) throws Exception{
 		http.csrf().disable();
 		http.authorizeRequests().antMatchers("/login").permitAll();
-		http.authorizeRequests().antMatchers("/","/home").access("hasAuthority('ADMIN')");
+		http.authorizeRequests().antMatchers("/","/home","/modelosxmarca").access("hasAuthority('ADMIN')");
 		
 		http.authorizeRequests().and().formLogin()
 		.loginProcessingUrl("/j_spring_security_check")
