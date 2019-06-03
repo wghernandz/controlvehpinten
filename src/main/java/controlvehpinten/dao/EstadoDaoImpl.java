@@ -28,7 +28,7 @@ public class EstadoDaoImpl implements EstadoDao {
 		entityManager.remove(estadoId);
 	}
 	public Estado getEstado(int estadoId) {
-		String sql="select e from Estado e where e.estadoid="+estadoId;
+		String sql="select e from Estado e where e.idestado="+estadoId;
 		try {
 			return (Estado)entityManager.createQuery(sql).getSingleResult();
 		}catch(Exception e) {
@@ -38,7 +38,7 @@ public class EstadoDaoImpl implements EstadoDao {
 	}
 	public List<Estado> getEstados(){
 		List<Estado> estados;
-		estados=entityManager.createQuery("select e from Estado").getResultList();
+		estados=entityManager.createQuery("select e from Estado e").getResultList();
 		return estados;
 	}
 }

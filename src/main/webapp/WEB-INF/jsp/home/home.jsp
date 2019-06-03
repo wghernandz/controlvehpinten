@@ -10,7 +10,7 @@
 <link href="<c:url value="/resources/css/home.css" />" rel="stylesheet">
 </head>
 <body>	
- <div class="container" style="padding: 25px 10px 25px 175px; ">
+ <div class="container" style="padding: 25px 10px 25px 175px;">
            <div class="row">
                 <div class="col-xs-12 ">
                   <nav>

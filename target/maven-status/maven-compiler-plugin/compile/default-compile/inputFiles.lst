@@ -20,13 +20,16 @@ C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\dao\UsuarioRoleDaoImpl.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\app\config\DatabaseConfig.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\AnioServiceImpl.java
+C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\EstadoService.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\UsuarioServiceImpl.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\IngresovehiculoServiceImpl.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\dao\IngresovehiculoDao.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\entity\Marca.java
+C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\EstadoServiceImpl.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\UsuarioService.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\web\config\SecurityConfig.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\ClienteServiceImpl.java
+C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\AsesorServiceImpl.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\dao\RegistroestadoDao.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\web\config\WebConfig.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\dao\UsuarioDao.java
@@ -35,7 +38,8 @@ C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\entity\Comentario.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\services\ClienteService.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\dao\MarcaDao.java
-C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\controller\ingresoVehController.java
+C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\controller\FlujoVehiculoController.java
+C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\controller\IngresoVehController.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\dao\IngresovehiculoDaoImpl.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\dao\PersonaDao.java
 C:\Users\willian\eclipse-workspace-photon-ultimo\controlvehpinten\src\main\java\controlvehpinten\dao\EstadoDao.java

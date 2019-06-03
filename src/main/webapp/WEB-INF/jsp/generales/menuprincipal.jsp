@@ -15,29 +15,24 @@
 </head>
 <body>
 <c:url value="/mttovehiculos/ingresovehiculo" var="urlIngresoVehiculo" />
-<div class="nav-side-menu">
+<c:url value="/flujovehiculo/estado" var="urlFlujoVehiculo"/>
+<div class="nav-side-menu" style="float:left;width:20%;">
     <div class="brand">SERVIPINTEN</div>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
   
         <div class="menu-list">
   
             <ul id="menu-content" class="menu-content collapse out">
-                <li>
-                  <a href="#">
-                  <i class="fas fa-tachometer-alt fa-lg"></i> Dashboard
-                  </a>
-                </li>
-
                 <li  data-toggle="collapse" data-target="#products" class="collapsed active">
-                  <a href="#"><i class="fab fa-studiovinari fa-lg"></i>CONTROL VEHICULOS<span class="arrow"></span></a>
+                  <a href="#"><i class="fab fa-pagelines fa-lg"></i>CONTROL VEHICULOS<span class="arrow"></span></a>
                 </li>
                 <ul class="sub-menu collapse" id="products">
                     <li class="active"><a href="${urlIngresoVehiculo}">Ingreso nuevo vehiculo</a></li>
-                    <li><a href="#">Estados de vehiculo</a></li>
+                    <li><a href="${urlFlujoVehiculo}">Flujo de Vehiculos</a></li>
                 </ul>
 
                 <li data-toggle="collapse" data-target="#service" class="collapsed">
-                  <a href="#"><i class="fab fa-fort-awesome-alt fa-lg"></i>CATALOGOS<span class="arrow"></span></a>
+                  <a href="#"><i class="fab fa-pagelines fa-lg"></i>CATALOGOS<span class="arrow"></span></a>
                 </li>  
                 <ul class="sub-menu collapse" id="service">
                   <li>Vehiculos</li>

@@ -13,8 +13,7 @@ var app= new Vue({
 	},
 	
 	methods:{
-		mounted(){
-						
+		mounted(){			
 			 this.ajaxRequest = true;
 		        this.$http.post("modelosxmarca/"+this.marcaSeleccionada, 
 		        		function (data, status, request) {
